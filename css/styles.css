@@ -1,10 +1,61 @@
 
 body{
   margin:0;
+  text-align: center;
+  font-size: 100%;
 }
 div{
   background-color: #e4e3e3;
 }
+.top{
+position: relative;
+  padding-top: 100px;
+}
+
 h1{
-  margin-top: 0;
+  margin: 30px auto 50px auto;
+  font-size: 5.625rem;
+  width: 55%;
+  color: #66BFBF;
+  font-family: 'Great Vibes', cursive;
+}
+.middle-container{
+
+}
+h2{
+  margin: 30px auto 50px auto;
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.500rem;
+}
+h3{
+  color: #11999E;
+}
+
+.Profile{
+
+  top:200px;
+}
+.skill-row{
+  text-align: center;
+
+}
+.skills{
+  text-align: center;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
 }
