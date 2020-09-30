@@ -7,6 +7,10 @@ body{
 div{
   background-color: #e4e3e3;
 }
+.Profile{
+
+  top:200px;
+}
 .top{
 position: relative;
   padding-top: 100px;
@@ -19,8 +23,18 @@ h1{
   color: #66BFBF;
   font-family: 'Great Vibes', cursive;
 }
-.middle-container{
+h3{
+  color : #11999E;
+}
 
+p{
+font-family: 'Merriweather Sans', sans-serif;
+}
+.chillies{
+  width: 25%;
+}
+.Computer_image{
+  width: 25%;
 }
 h2{
   margin: 30px auto 50px auto;
@@ -28,16 +42,12 @@ h2{
   font-weight: normal;
   font-size: 2.500rem;
 }
-h3{
-  color: #11999E;
-}
 
-.Profile{
-
-  top:200px;
-}
 .skill-row{
-  text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 2;
 
 }
 .skills{
