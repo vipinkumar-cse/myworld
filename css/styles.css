@@ -4,18 +4,21 @@ body{
   text-align: center;
   font-size: 100%;
 }
-div{
-  background-color: #e4e3e3;
-}
-.Profile{
 
-  top:200px;
+.Profile{
+  position: relative;
+  top: 100px;
 }
 .top{
 position: relative;
   padding-top: 100px;
+  background-color: #e4e3e3;
 }
+.middle-container{
+padding-top: 100px;
+background-color: white;
 
+}
 h1{
   margin: 30px auto 50px auto;
   font-size: 5.625rem;
@@ -27,14 +30,32 @@ h3{
   color : #11999E;
 }
 
+.code-skill{
+  clear: right;
+
+}
+.mypic{
+
+  height: 250px;
+}
 p{
 font-family: 'Merriweather Sans', sans-serif;
 }
 .chillies{
   width: 25%;
+  float : left;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
 .Computer_image{
-  width: 25%;
+  width: 25%;margin-left: 30px;
+  float : right;
+
+}
+
+.description{
+  clear: left;
+  margin-bottom: 10px;
 }
 h2{
   margin: 30px auto 50px auto;
@@ -54,6 +75,7 @@ h2{
   text-align: center;
 
 }
+
 
 .bottom-cloud{
   position: absolute;
